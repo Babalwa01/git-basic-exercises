@@ -1,0 +1,140 @@
+    1  ls
+    2  pwd
+    3  ls /data
+    4  ls /
+    5  ls C:\My Work/
+    6  ls C:/My Work/
+    7  ls /C:/My Work/
+    8  ls -a
+    9  ls -l
+   10  pwd
+   11  cd C:\My Work\Umuzi PreLearning
+   12  cd "C:\My Work\Umuzi PreLearning"
+   13  mkdir "C:\My Work\Umuzi PreLearning"
+   14  cd "C:\My Work\Umuzi PreLearning"
+   15  mkdir Learning_unix
+   16  ls
+   17  cd Learning_unix
+   18  cd ~
+   19  pwd
+   20  mkdir Learning_unix
+   21  ls
+   22  rmdir "C:\My Work\Umuzi PreLearning"
+   23  rmdir Learning_unix
+   24  rmdir "C:\My Work\Umuzi PreLearning"
+   25  cd "C:\My Work\Umuzi PreLearning"
+   26  ls
+   27  rmdir Learning_unix
+   28  ls
+   29  cd ~
+   30  ls
+   31  rmdir "C:\My Work\Umuzi PreLearning"
+   32  ls
+   33  pwd
+   34  mkdir Learning_unix
+   35  ls
+   36  cd Learning_unix
+   37  mkdir Outer_directory
+   38  cd Outer_directory
+   39  mkdir Inner_directory
+   40  cd Inner_directory/
+   41  cd home/ubuntu
+   42  cd /
+   43  cd home
+   44  cd ubuntu
+   45  pwd
+   46  cd Learning_unix/
+   47  cd ..
+   48  cd Learning_unix/Outer_directory
+   49  cd ../..
+   50  cd Learning_unix/Outer_directory
+   51  ls ../..
+   52  ../../
+   53  ls ../../
+   54  ls -l /home
+   55  cd
+   56  ls -l
+   57  ls -R
+   58  ls -l -t -r
+   59  ls -lh
+   60  man ls
+   61  man cd
+   62  man dir
+   63  man cd
+   64  pwd
+   65  sudo apt install git-all
+   66  git
+   67  sudo apt-get install git
+   68  git status
+   69  git
+   70  git config --list --show-origin
+   71  git version
+   72  git config --list --show-origin
+   73  git config --list
+   74  git help config
+   75  git add -h
+   76  git init "C:\My Work\Umuzi PreLearning"
+   77  cd /home/ubuntu/C:\My Work\Umuzi Prelearning
+   78  cd "/home/ubuntu/C:\My Work\Umuzi Prelearning"
+   79  cd "/home/ubuntu/C:\My Work\Umuzi Prelearning/"
+   80  cd "C:\My Work\Umuzi PreLearning"
+   81  git status
+   82  git difftool --tool-help
+   83  mkdir git-basic-exercises
+   84  cd git-basic-exercises
+   85  ls -a
+   86  git init
+   87  ls -a
+   88  git status
+   89  touch README.md
+   90  ls -a
+   91  git status
+   92  git log
+   93  git add README.md
+   94  git status
+   95  git restore --staged README.md
+   96  git status
+   97  git rm --cached README.md
+   98  git status
+   99  git add README.md
+  100  git status
+  101  git commit -m "initial commit"
+  102  git config --global user.email "babalwambolekwa93@gmail.com"
+  103  git config --global user.name "Babalwa01"
+  104  git commit -m "initial commit"
+  105  git log
+  106  q
+  107  git status
+  108  ls -a
+  109  git log
+  110  nano README.md
+  111  cat README.md
+  112  git stats
+  113  git status
+  114  git commit -m "second commit"
+  115  git add README.md
+  116  git commit -m "second commit"
+  117  nano README.md
+  118  git status
+  119  git add README.md
+  120  git commit -m "third commit"
+  121  git log
+  122  git checkout f7dee05895c9e753db18114f061e27fba1ab4fd6
+  123  cat README.md
+  124  git checkout master
+  125  cat README.md
+  126  git branch milkshake-flavours
+  127  git branch
+  128  git checkout milkshake-flavours
+  129  git branch
+  130  nano milkshakes.md
+  131  git status
+  132  git add milkshakes.md
+  133  git commit -m "added initial flavours"
+  134  git log
+  135  git checkout master
+  136  git branch history
+  137  git branch
+  138  git checkout history
+  139  git log
+  140  history > history.txt
